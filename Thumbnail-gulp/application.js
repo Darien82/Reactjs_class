@@ -18,6 +18,7 @@ var options = {
 
   var element = React.createElement(Thumbnaillist, options);
   React.render(element, document.querySelector('.container'));
+  
   var Badge = React.createClass({displayName: "Badge",
     render: function() {
       return React.createElement("button", {className: "btn btn-primary", type: "button"}, 
